@@ -1,0 +1,8 @@
+[alias]
+	p = pull --rebase
+	c = commit
+	st = status
+
+[color]
+    status = auto
+    diff = auto
