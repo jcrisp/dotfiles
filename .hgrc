@@ -1,13 +1,1 @@
-[ui]
-username = James Crisp <jcrisp@thoughtworks.com>
-
-[extensions]
-rebase = 
-purge = 
-hgext.extdiff =
-
-[extdiff]
-cmd.kdiff3 =
-
-[merge-tools]
-kdiff3.args = $base $local $other -o $output
+/Users/james/dotfiles/hgrc
