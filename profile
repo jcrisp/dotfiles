@@ -17,7 +17,7 @@ alias updatedb='sudo /usr/libexec/locate.updatedb'
 repl() { perl -pi -w -e "s/$1/$2/g;" * }
 replr() { perl -p -i -e "s/$1/$2/g" `grep -ril $1 *` }
 
-source ~/.bashrc
+source ~/.bashrc # has machine specific commands in it, for historical reasons :-)
 
 alias ls="ls -GF"
 export LSCOLORS=Exfxcxdxbxegedabagacad
