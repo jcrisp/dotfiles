@@ -43,3 +43,6 @@ endfunction
 command! -nargs=* -complete=file Ack call Ack(<q-args>)
 map s :Ack<space>
 
+imap ` <Esc>
+imap <F14> <Esc>
+imap ;; <Esc>

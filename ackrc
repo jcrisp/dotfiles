@@ -1,5 +1,13 @@
 --ruby
 --type-set=haml=.haml
 --type-set=erb=.erb
+--type-set=js=.js
+--type-set=scss=.scss
+--type-set=yml=.yml
+--type-set=coffee=.coffee
 --haml
 --erb
+--js
+--scss
+--yml
+--coffee

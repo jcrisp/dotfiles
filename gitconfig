@@ -2,6 +2,7 @@
 	p = pull --rebase
 	c = commit
 	st = status
+	l = log --graph --oneline --decorate
 
 [color]
     status = auto
