@@ -6,3 +6,9 @@
 [color]
     status = auto
     diff = auto
+[user]
+	name = James Crisp
+	email = james@crispdesign.net
+
+[push]
+default = current
