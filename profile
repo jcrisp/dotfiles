@@ -15,6 +15,10 @@ function gitclean() {
 
 alias "gvim"="rvm use system do gvim"
 
+alias "ra"="cd ~/dev/ra"
+alias "ram"="cd ~/dev/ra && git checkout master && cd .. && cd ra"
+alias "rar"="cd ~/dev/ra && git checkout rails3 && cd .. && cd ra"
+
 repl() { perl -pi -w -e "s/$1/$2/g;" * }
 replr() { perl -p -i -e "s/$1/$2/g" `grep -ril $1 *` }
 
