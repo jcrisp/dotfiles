@@ -13,8 +13,8 @@ map f :FuzzyFinderTextMate<cr>
 map n :tabnew<cr>
 map q :tabclose<cr>
 map r :ruby finder.rescan!<CR>
-map h :tabnext<cr>
-map g :tabprevious<cr>
+map k :tabnext<cr>
+map j :tabprevious<cr>
 map - orequire 'ruby-debug'; breakpoint<esc>
       
 map ` \vV
