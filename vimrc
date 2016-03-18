@@ -15,16 +15,15 @@ map q :tabclose<cr>
 map r :ruby finder.rescan!<CR>
 map k :tabnext<cr>
 map j :tabprevious<cr>
-map - orequire 'ruby-debug'; breakpoint<esc>
+map - :%!python -m json.tool
       
-map ` \vV
 map rrc :so %<cr>
 
-let g:fuzzy_ignore = "*.svn"
-let g:fuzzy_ignore = "*.swp"
-let g:fuzzy_ignore = "*.jpg"
-let g:fuzzy_ignore = "*.gif"
-let g:fuzzy_ignore = "*~"
+map '  :s,^\(\s*\)[^# \t]\@=,\1#,e<CR>:nohls<CR>zv
+map "  :s,^\(\s*\)#\s\@!,\1,e<CR>:nohls<CR>zv
+
+let g:fuzzy_ignore = "*.svn;*.swp;*.jpg;*.gif;*~;node_modules/**;bower_components/**;tmp/**;vendor/**;dist/**;"
+let g:fuzzy_ceiling = 1000000
 
 set nobackup
 
@@ -43,6 +42,16 @@ endfunction
 command! -nargs=* -complete=file Ack call Ack(<q-args>)
 map s :Ack<space>
 
-imap ` <Esc>
+" map ` \vV
+" imap ` <Esc>
+
 imap <F14> <Esc>
-imap ;; <Esc>
+imap <F2> <Esc>
+
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+
+
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
+

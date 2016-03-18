@@ -5,9 +5,11 @@
 --type-set=scss=.scss
 --type-set=yml=.yml
 --type-set=coffee=.coffee
+--type-set=handlebars=.hbs
 --haml
 --erb
 --js
 --scss
 --yml
 --coffee
+--handlebars
