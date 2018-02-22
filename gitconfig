@@ -3,6 +3,8 @@
 	c = commit
 	st = status
 	l = log --graph --oneline --decorate
+  d = diff --color-words=.
+  co = checkout
 
 [color]
     status = auto

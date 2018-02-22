@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/james/.rvm/gems/ruby-2.1.8@ra_r4_r4/gems/redirect_on_back-1.0.0'
+let g:netrw_dirhist_2='/Users/james/.rvm/gems/ruby-2.1.8@ra_r4_r4/gems/redirect_on_back-1.0.0/lib'
+let g:netrw_dirhist_3='/Users/james/.rvm/gems/ruby-2.1.8@ra_r4_r4/gems/redirect_on_back-1.0.0/lib/redirect_on_back'
+let g:netrw_dirhist_4='/Users/james/.rvm/gems/ruby-2.4.2@ra/gems/rspec-support-3.7.0'
+let g:netrw_dirhist_5='/Users/james/.rvm/gems/ruby-2.4.2@ra/gems/rspec-support-3.7.0/lib'
+let g:netrw_dirhist_6='/Users/james/.rvm/gems/ruby-2.4.2@ra/gems/rspec-support-3.7.0/lib/rspec'
+let g:netrw_dirhist_7='/Users/james/.rvm/gems/ruby-2.4.2@ra/gems/rspec-support-3.7.0/lib/rspec/support'

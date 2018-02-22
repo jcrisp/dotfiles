@@ -55,3 +55,12 @@ set undodir=~/.vim/undo//
 
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 
+" this enables "visual" wrapping
+set wrap
+
+" this turns off physical line wrapping (ie: automatic insertion of newlines)
+set textwidth=0 wrapmargin=0 tw=0
+
+map '  :s,^\(\s*\)[^# \t]\@=,\1#,e<CR>:nohls<CR>zv
+map "  :s,^\(\s*\)#\s\@!,\1,e<CR>:nohls<CR>zv
+

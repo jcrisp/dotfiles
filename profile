@@ -9,6 +9,7 @@ function gitclean() {
 alias "gvim"="rvm use system do gvim"
 
 export EDITOR='rvm use system do gvim'
+export VISUAL='vim'
 
 alias push='git p && bundle install && rake db:migrate && rake && git push'
 
