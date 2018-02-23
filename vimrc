@@ -54,6 +54,7 @@ set undodir=~/.vim/undo//
 
 
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
+au BufRead,BufNewFile *.ex,*.exs set ft=elixir syntax=elixir
 
 " this enables "visual" wrapping
 set wrap
