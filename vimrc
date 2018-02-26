@@ -22,7 +22,7 @@ map rrc :so %<cr>
 map '  :s,^\(\s*\)[^# \t]\@=,\1#,e<CR>:nohls<CR>zv
 map "  :s,^\(\s*\)#\s\@!,\1,e<CR>:nohls<CR>zv
 
-let g:fuzzy_ignore = "*.svn;*.swp;*.jpg;*.gif;*~;node_modules/**;bower_components/**;tmp/**;vendor/**;dist/**;"
+let g:fuzzy_ignore = "*.svn;*.swp;*.jpg;*.gif;*~;node_modules/**;bower_components/**;tmp/**;vendor/**;dist/**;_build/**;priv/**;deps/**"
 let g:fuzzy_ceiling = 1000000
 
 set nobackup
@@ -55,6 +55,7 @@ set undodir=~/.vim/undo//
 
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 au BufRead,BufNewFile *.ex,*.exs set ft=elixir syntax=elixir
+au BufRead,BufNewFile *.eex set ft=eelixir syntax=eelixir
 
 " this enables "visual" wrapping
 set wrap
