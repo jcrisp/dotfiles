@@ -7,6 +7,7 @@ function gitclean() {
 }
 
 alias "gvim"="rvm use system do gvim"
+alias co="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
 export EDITOR='rvm use system do gvim'
 export VISUAL='vim'
@@ -23,3 +24,4 @@ source ~/.bashrc # has machine specific commands in it, for historical reasons :
 alias ls="ls -GF"
 export LSCOLORS=Exfxcxdxbxegedabagacad
 
+ssh-add -K ~/.ssh/id_rsa
