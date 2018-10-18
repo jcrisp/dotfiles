@@ -1,15 +1,15 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "k",
+        "key": "ctrl+k",
         "command": "workbench.action.nextEditor"
     },
     {
-        "key": "j",
+        "key": "ctrl+j",
         "command": "workbench.action.previousEditor"
     },
     {
-        "key": "f",
+        "key": "ctrl+p",
         "command": "workbench.action.quickOpen"
     },
     {
