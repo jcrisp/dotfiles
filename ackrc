@@ -13,3 +13,6 @@
 --yml
 --coffee
 --handlebars
+
+--ignore-dir=public/script_lib
+--ignore-file=match:/jquery.*/

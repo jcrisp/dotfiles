@@ -66,4 +66,6 @@ set textwidth=0 wrapmargin=0 tw=0
 map '  :s,^\(\s*\)[^# \t]\@=,\1#,e<CR>:nohls<CR>zv
 map "  :s,^\(\s*\)#\s\@!,\1,e<CR>:nohls<CR>zv
 
-set textwidth=250 " don't force word wrap till very long line
+set textwidth=0 " don't force word wrap
+autocmd FileType text setlocal textwidth=0 " override explicit set in vimrc_example.vim
+
