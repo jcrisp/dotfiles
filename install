@@ -9,8 +9,10 @@ Dir['*'].each do |file|
   `ln -s #{File.expand_path file} #{target}`
 end
 
-mkdir ~/.vim/backup ~/.vim/swap ~/.vim/undo
+`mkdir ~/.vim/backup ~/.vim/swap ~/.vim/undo`
 
+# install prezto shell:
+# https://github.com/jcrisp/prezto/blob/master/README.md
 
-ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+# copy .bashrc from other computer
+
