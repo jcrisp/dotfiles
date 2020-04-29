@@ -14,4 +14,6 @@
 	email = james@crispdesign.net
 
 [push]
-default = current
+	default = current
+[pull]
+	default = current
