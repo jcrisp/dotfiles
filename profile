@@ -6,13 +6,12 @@ function gitclean() {
   git clean -df
 }
 
-alias "gvim"="rvm use system do gvim"
+# alias "gvim"="rvm use system do gvim"
 alias co="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
-export EDITOR='rvm use system do gvim'
+# export EDITOR='rvm use system do gvim'
+export EDITOR='gvim'
 export VISUAL='vim'
-
-alias push='git p && bundle install && rake db:migrate && rake && git push'
 
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 
